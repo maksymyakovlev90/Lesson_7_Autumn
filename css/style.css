@@ -1,0 +1,191 @@
+@import "null.css";
+
+body{
+    background-color: rgb(236, 236, 236);
+    font-family: 'Jura', sans-serif;
+}
+
+p{
+    margin: 0 15px 15px;
+    line-height: 23px;
+    text-align: justify;
+ }
+
+h1{
+    background-image: linear-gradient(to bottom, rgb(119, 60, 228) 0%, rgb(58, 225, 254) 50%, rgb(215, 58, 254) 100%);
+    font-size: 40px;
+    text-align: center;
+    padding: 30px 0 30px 30px;
+    margin-bottom: 15px;
+}
+
+h3{
+    margin: 0 15px 15px;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+ul{
+    margin: 0 0 15px 20px;
+}
+ 
+li{
+    list-style-type: disc;
+    margin-left: 40px;
+    line-height: 25px;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.background{
+    background-color: #fff;
+    background-image: url(../img/341821.jpeg);
+    border-left: 5px solid rgb(139, 44, 218);
+    padding: 10px;
+    margin: 0 15px 15px;
+    font-size: 20px;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.example1{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    width: 300px;
+    height: 150px;
+    margin: 0 15px 15px;
+    display: inline-block;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.example2{
+    background-image: url("../img/black-background-1468370534d5s.jpeg");
+    background-size: 100%;
+    width: 300px;
+    height: 150px;
+    margin: 0 15px 15px;
+    display: inline-block;
+}
+
+.example2-click{
+    background-image: url("../img/black-background-1468370534d5s.jpeg");
+    background-size: 100%;
+    width: 300px;
+    height: 150px;
+    margin: 0 15px 15px;
+    display: inline-block;
+    cursor: pointer; 
+}
+
+.example3{
+    background-image: url("../img/53_main.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 150px;
+    margin: 0 15px 15px;
+    display: inline-block;
+}
+
+.example4-repeat-x{
+    border: 3px solid rgb(13, 177, 95);
+    background-color: rgb(177, 50, 182);
+    background-image: url("../img/Unknown.jpeg");
+    background-repeat: repeat-x;
+    background-size: 104px;
+    height: 318px;
+    margin: 15px;
+    width: 320px;
+    display: inline-block;
+}
+
+.example4-repeat-y{
+    border: 3px solid rgb(13, 177, 95);
+    background-color: rgb(177, 50, 182);
+    background-image: url("../img/Unknown.jpeg");
+    background-repeat: repeat-y;
+    background-size: 104px;
+    height: 318px;
+    margin: 15px;
+    width: 320px;
+    display: inline-block;    
+}
+
+.example4-repeat{
+    border: 3px solid rgb(13, 177, 95);
+    background-color: rgb(177, 50, 182);
+    background-image: url("../img/Unknown.jpeg");
+    background-repeat: repeat;
+    background-size: 104px;
+    height: 318px;
+    margin: 15px;
+    width: 320px;
+    display: inline-block;   
+}
+
+.example4-no-repeat{
+    border: 3px solid rgb(13, 177, 95);
+    background-color: rgb(177, 50, 182);
+    background-image: url("../img/Unknown.jpeg");
+    background-repeat: no-repeat;
+    background-size: 104px;
+    height: 318px;
+    margin: 15px;
+    width: 320px;
+    display: inline-block; 
+}
+
+.example5-position1{
+    border: 3px solid rgb(13, 177, 95);
+    background-color: rgb(177, 50, 182);
+    background-image: url("../img/Unknown.jpeg");
+    background-repeat: no-repeat;
+    background-position: 20px 50px;
+    background-size: 104px;
+    height: 318px;
+    margin: 15px;
+    width: 320px;
+    display: inline-block;
+}
+
+.example5-position2{
+    border: 3px solid rgb(13, 177, 95);
+    background-color: rgb(177, 50, 182);
+    background-image: url("../img/Unknown.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 104px;
+    height: 318px;
+    margin: 15px;
+    width: 320px;
+    display: inline-block;
+}
+
+.example5-position3{
+    border: 3px solid rgb(13, 177, 95);
+    background-color: rgb(177, 50, 182);
+    background-image: url("../img/Unknown.jpeg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 104px;
+    height: 318px;
+    margin: 15px;
+    width: 320px;
+    display: inline-block;
+}
+
+.block{
+    text-transform: uppercase;
+    text-align: center;
+    background: radial-gradient(ellipse at center, rgba(119, 60, 228, 1) 0%, rgba(58, 225, 254, 1) 50%, rgba(215, 58, 254, 1) 100%);
+    padding: 30px 0 30px 30px;
+    font-size: 40px;
+}
